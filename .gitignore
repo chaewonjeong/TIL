@@ -1,0 +1,76 @@
+# === macOS 기본 잡파일 무시 ===
+.DS_Store
+
+# === Obsidian 설정 무시 ===
+.obsidian/
+
+# === 임시 파일, 백업 파일 무시 ===
+*.bak
+*.tmp
+*.temp
+~$*
+
+# === 텍스트 에디터 임시파일 무시 (vim 등) ===
+*.swp
+*.swo
+
+# === Node.js 플러그인 설치시 ===
+node_modules/
+
+# === 로그 파일 무시 ===
+*.log
+
+# === 이미지 캐시 무시 (필요에 따라) ===
+.cache/
+
+# === Windows 시스템 파일 무시 ===
+Thumbs.db
+desktop.ini
+
+# === VSCode 설정 무시 ===
+.vscode/
+*.code-workspace
+
+# === IntelliJ IDEA 설정 무시 ===
+.idea/
+*.iml
+out/
+.idea_modules/
+
+# === JetBrains IDEs 공통 캐시 무시 ===
+out/
+.idea_modules/
+
+# === Python 가상환경 폴더 무시 (혹시 만들 경우 대비) ===
+venv/
+ENV/
+env/
+
+# === 기타 ===
+# Build 결과물 폴더 무시 (만약 소스코드 작성할 경우 대비)
+build/
+dist/
+target/
+bin/
+obj/
+
+
+# Java
+*.class
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# C/C++
+*.out
+*.o
+*.obj
+*.exe
+
+# Node.js
+node_modules/
+dist/
+build/
